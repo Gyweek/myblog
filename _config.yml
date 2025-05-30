@@ -100,5 +100,13 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#  type: ''
+
+url: https://Gyweek.github.io/
+root: /myblog/
+
 deploy:
-  type: ''
+type: 'git'
+repo: git@github.com:Gyweek/myblog.git
+branch: gh-pages
